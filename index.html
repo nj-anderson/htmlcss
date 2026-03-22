@@ -2,9 +2,87 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <link rel="stylesheet" type="text/css" href="public/mystyles.css" />
+    <title>All about WPI</title>
 </head>
 <body>
+<nav>
+    <ul>
+        <li><a href="http://www.wpi.edu">WPI Home Page</a></li>
+    </ul>
+    <ul>
+        <li><a href="https://canvas.wpi.edu/courses/41587">CS Advising Site</a></li>
+    </ul>
+</nav>
+<h1>Worcester Info for WPI Students</h1>
+<p>Welcome to my page about <b>WPI</b>!</p>
 
+<div id="WPI">
+    <img src="public/wpi.jpg" width="300" alt="WPI" />
+</div>
+
+<hr />
+Stops along the commuter rail to Boston:
+<ol>
+    <li>Grafton</li>
+    <li>Framingham</li>
+    <li>Natick</li>
+    <li>West Newton</li>
+    <li>Back Bay</li>
+    <li>South Station</li>
+</ol>
+
+Good restaurants near WPI
+<ul class="typicallist">
+    <li>Boynton Family Restaurant</li>
+    <li>Sole Proprietor</li>
+    <li>The Fix Burger Bar</li>
+    <li>Island Fin Poke</li>
+</ul>
+<hr />
+
+<table>
+    <caption>Dining at WPI</caption>
+    <tr>
+        <th>Locations</th>
+        <th>Price</th>
+        <th>Rating</th>
+    </tr>
+    <tr>
+        <td>Campus Center</td>
+        <td>Medium</td>
+        <td>4/5</td>
+    </tr>
+    <tr>
+        <td>Dunkin</td>
+        <td>High</td>
+        <td>4.5/5</td>
+    </tr>
+    <tr>
+        <td>Morgan Dining Hall</td>
+        <td>Low</td>
+        <td>2/5</td>
+    </tr>
+</table>
+<hr/>
+
+<h2>Food and Drink Form</h2>
+<form>
+    <label for="fullname">Your Full Name:</label>
+    <input type="text" id="fullname" />
+    <br /><br />
+    <input type="checkbox" id="hamburger" />
+    <label for="hamburger">Hamburger</label>
+    <input type="checkbox" id="fries" />
+    <label for="fries">Fries</label>
+    <input type="checkbox" id="soda" />
+    <label for="soda">Soda</label>
+    <br /><br />
+    <label for="comments">Comments</label>
+    <textarea rows="2" cols="40" id="comments"></textarea>
+    <br /><br />
+    <input type="submit" value="Submit" />
+
+</form>
 </body>
 </html>

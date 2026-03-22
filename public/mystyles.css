@@ -1,0 +1,27 @@
+body {
+    background-color: mediumaquamarine;
+    color: black;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+table, tr, td, th {
+    border: 1px solid darkblue;
+}
+
+#WPI { text-align: center; }
+
+.typicallist {
+    list-style-type: square;
+}
+
+nav {
+    text-align: center;
+    background-color: white;
+    list-style-type: none;
+}
+
+nav ul li a:hover {
+    background-color: darkblue;
+    color: white;
+}
